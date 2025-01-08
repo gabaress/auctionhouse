@@ -227,9 +227,9 @@ currencies:
     min-price-purchase: -1
     # What's the minimum amount the player can add to the offer of a bid?
     # This is to stop people from adding for example $1 when the bid is about to end to win the bid.
-    min-bid-amount: 1000
+    min-bid-amount: 1
     # What is the minimum price for an auction?
-    min-price-auction: 1000
+    min-price-auction: 1
     # What is the maximum price for an auction?
     max-price-auction: 9999999
     # How should the plugin interact with vault, by default the plugin uses player names due to some limitations with economy plugins.
@@ -412,7 +412,7 @@ currencies:
     max-price-auction: 9999999
   item:
     # Do you want to enable the Item currency?
-    enabled: true
+    enabled: false
     # What version of this expansion do you want to download/use?
     version: latest
     # The name that is used in-game to decide what currency to use.
@@ -436,7 +436,7 @@ currencies:
       lore: []
   xp:
     # Do you want to enable the XP currency?
-    enabled: true
+    enabled: false
     # What version of this expansion do you want to download/use?
     version: latest
     # The name that is used in-game to decide what currency to use.
